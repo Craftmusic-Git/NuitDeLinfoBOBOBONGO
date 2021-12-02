@@ -1,0 +1,179 @@
+#1 Procédure FromNameToPerson :
+
+Entry : String name
+
+Return : Personne personnes[]
+
+
+#2 Procédure FromPrenomToPerson :
+
+Entry : String prenom
+
+Return : Personne personnes[]
+
+
+#3 Procédure FromIDToPerson :
+
+Entry : unsigned int ID
+
+Return : Personne personnes[]
+
+
+#4 Procédure FromNameToEvent :
+
+Entry : String name
+
+Return : Evenement evenement[]
+
+
+#5 Procédure FromIDToEvent
+
+Entry : unsigned int ID
+
+Return : Evenement evenement[]
+
+
+#6 Procédure PersonIDOnEvent
+
+Entry : unsigned int ID
+
+Return : Evenement evenement[]
+
+
+#7 Procédure EventIDToPerson
+
+Entry : unsigned int ID
+
+Return : Personne personnes[]
+
+
+#8 Procédure ArticleIDToPerson
+
+Entry : unsigned int ID
+
+Return : Personne personnes[]
+
+
+#9 Procédure PersonIDToArticle
+
+Entry : unsigned int ID
+
+Return : Article articles[]
+
+
+#10 Procédure FromNomToBateau :
+
+Entry : String name
+
+Return : Bateau bateaux[]
+
+
+#11 Procédure FromTypeToBateau :
+
+Entry : String type
+
+Return : Bateau bateaux[]
+
+
+#12 Procédure FromIdToBateau :
+
+Entry : unsigned int ID
+
+Return : Bateau bateaux[]*
+
+
+#13 Procédure FromTitreToArticle :
+
+Entry : String titre
+
+Return : Article articles[]
+
+
+#14 Procédure FromDateToArticle :
+
+Entry : int date
+
+Return : Article articles[]
+
+
+#15 Procédure FromContenuToArticle :
+
+Entry : String contenu
+
+Return : Article articles[]
+
+
+#16 Procédure EventIDonBat :
+
+Entry : unsigned int ID
+
+Return : Bateau bateaux[]
+
+
+
+#17 Procédure BatIDonEvent :
+
+Entry : unsigned int ID
+
+Return : Evenement evenement[]
+
+
+
+#18 Procédure persIDonBat :
+
+Entry : unsigned int ID
+
+Return : Bateau bateaux[]
+
+
+
+#19 Procédure BatIDOnPers :
+
+Entry : unsigned int ID
+
+Return : Personne Personne[]
+
+
+
+#20 Procédure EventIDOnArticle :
+
+Entry : unsigned int ID
+
+Return : Article articles[]
+
+
+#21 Procédure ArticleIDOnevent :
+
+Entry : unsigned int ID
+
+Return : Evenement evenement[]
+
+
+#22 Procédure PersIDOnArticle :
+
+Entry : unsigned int ID
+
+Return : Article articles[]
+
+
+#23 Procédure BatIDOnArticle :
+
+Entry : unsigned int ID
+
+Return : Article articles[]
+
+
+
+#24 Procédure ArticleIDonBat :
+
+Entry : unsigned int ID
+
+Return : Bateau bateaux[]
+
+
+
+#25 Procédure ArticleIDOnPers :
+
+Entry : unsigned int ID
+
+Return : Personne Personne[]
