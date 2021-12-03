@@ -1,0 +1,25 @@
+echo 'CC= gcc
+MAINSRCS= pimc.c
+LIBSRCS:= $(filter-out $(MAINSRCS), $(wildcard *.c))
+#CPPFLAGS=
+CPPFLAGS= -DDEBUG
+CFLAGS=
+LDFLAGS= 
+LDLIBS= 
+EXECS := $(patsubst %.c,%,$(MAINSRCS))
+MAINOBJS :=$(patsubst %.c,%.o,$(MAINSRCS))
+LIBHS:=$(LIBSRCS:.c=.h)
+LIBOBJS:=$(LIBSRCS:.c=.o)
+.PHONY: clean
+all: $(EXECS)
+$(MAINOBJS) : %.o :%.c $(LIBHS) $(COMMONHS) $(MAINHS)
+	$(CC) -c -o $@ $(CFLAGS) $(CPPFLAGS) $<
+$(LIBOBJS) : %.o :%.c %.h $(COMMONHS)
+	$(CC) -c -o $@ $(CFLAGS) $(CPPFLAGS) $<
+$(EXECS) : % : %.o $(LIBOBJS)
+	$(CC) $(LDFLAGS) $^ $(LDLIBS) -o $@
+clean: 
+	rm -f $(EXECS) *.o' > Makefile
+make
+gcc pimc.c -o bordel
+./bordel
