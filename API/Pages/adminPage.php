@@ -15,11 +15,11 @@
             <ul>
                 <li>
                     <h2 class="clickable" onclick="gererPage()">Gérer les pages</h2>
-                    <p>c la description fréro</p>
+                    <p>Gérez ici vos pages</p>
                 </li>
-                <li>
-                    <h2 class="clickable">Gérer les pages</h2>
-                    <p>c la description fréro</p>
+                <li onclick="window.open('../../index.php', '_blank')">
+                    <h2 class="clickable">Accédez au site public</h2>
+                    <p>Visionnez à quoi ressemble votre site</p>
                 </li>
                 <li>
                     <h2 class="clickable">Gérer les pages</h2>
