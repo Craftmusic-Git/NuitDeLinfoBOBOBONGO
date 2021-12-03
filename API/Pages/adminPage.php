@@ -4,13 +4,9 @@
     <meta name="viewport" content="width=devise-width, initial-scale=0.5">
     <title> 
             LES KOKO BONGO ON É LAAAAA
-    </title> 
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
-            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-            crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="jquery-ui.min.css">
-    <script src="jquery-ui.min.js"></script>
+    </title>
     <link rel="stylesheet" href="../../Front/style.css"/>
+    <script src="../JS/ajax.js"></script>
     <script type="text/javascript" src="../JS/gererPage.js"></script>
 </head>
 <body>
