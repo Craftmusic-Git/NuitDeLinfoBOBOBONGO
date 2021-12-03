@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cccfccd2-d274-4a9b-b828-1d448fc3b8e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/API/BDD/getOutBdd.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/JS/ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/API/JS/ajax.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/JS/gererPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/API/JS/gererPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Pages/viewPages.php" beforeDir="false" afterPath="$PROJECT_DIR$/API/Pages/viewPages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/BDD/getOutBdd.php" beforeDir="false" afterPath="$PROJECT_DIR$/API/BDD/getOutBdd.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
