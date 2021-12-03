@@ -37,28 +37,29 @@ Return : Evenement evenement[]
 
 Entry : unsigned int ID
 
-Return : Evenement evenement[]
+Return : Evenement+rel_type (evenement+rel_type)[]
 
 
 #7 Procédure EventIDToPerson
 
 Entry : unsigned int ID
 
-Return : Personne personnes[]
+Return : Personne+rel_type (personnes+rel_type)[]
 
 
 #8 Procédure ArticleIDToPerson
 
 Entry : unsigned int ID
 
-Return : Personne personnes[]
+Return : Personne+rel_type (personnes+rel_type)[]
+
 
 
 #9 Procédure PersonIDToArticle
 
 Entry : unsigned int ID
 
-Return : Article articles[]
+Return : (Article+rel_type) (articles+rel_type)[]
 
 
 #10 Procédure FromNomToBateau :
@@ -79,7 +80,7 @@ Return : Bateau bateaux[]
 
 Entry : unsigned int ID
 
-Return : Bateau bateaux[]*
+Return : Bateau bateaux[]
 
 
 #13 Procédure FromTitreToArticle :
@@ -91,23 +92,26 @@ Return : Article articles[]
 
 #14 Procédure FromDateToArticle :
 
-Entry : int date
+Entry : int->type DATE date
 
 Return : Article articles[]
 
 
 #15 Procédure FromContenuToArticle :
 
-Entry : String contenu
+Entry : String contenu -> recherche partielle
 
 Return : Article articles[]
+
+
+
 
 
 #16 Procédure EventIDonBat :
 
 Entry : unsigned int ID
 
-Return : Bateau bateaux[]
+Return : Bateau+rel_type (bateaux+rel_type)[]
 
 
 
@@ -115,7 +119,7 @@ Return : Bateau bateaux[]
 
 Entry : unsigned int ID
 
-Return : Evenement evenement[]
+Return : Evenement+rel_type (evenement+rel_type)[]
 
 
 
@@ -123,7 +127,7 @@ Return : Evenement evenement[]
 
 Entry : unsigned int ID
 
-Return : Bateau bateaux[]
+Return : Bateau+rel_type (bateaux+rel_type)[]
 
 
 
@@ -131,7 +135,7 @@ Return : Bateau bateaux[]
 
 Entry : unsigned int ID
 
-Return : Personne Personne[]
+Return : Personne+rel_type (Personne+rel_type)[]
 
 
 
@@ -153,14 +157,20 @@ Return : Evenement evenement[]
 
 Entry : unsigned int ID
 
-Return : Article articles[]
+Return : Article+rel_type (articles+rel_type)[]
+
+
+
+
+#######################################
+########### -- deja fait -- ###########
 
 
 #23 Procédure BatIDOnArticle :
 
 Entry : unsigned int ID
 
-Return : Article articles[]
+Return : Article+rel_type (articles+rel_type)[]
 
 
 
@@ -168,7 +178,7 @@ Return : Article articles[]
 
 Entry : unsigned int ID
 
-Return : Bateau bateaux[]
+Return : Bateau+rel_type (bateaux+rel_type)[]
 
 
 
@@ -176,4 +186,4 @@ Return : Bateau bateaux[]
 
 Entry : unsigned int ID
 
-Return : Personne Personne[]
+Return : Personne+rel_type (Personne+rel_type)[]
