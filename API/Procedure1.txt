@@ -37,14 +37,14 @@ Return : Evenement evenement[]
 
 Entry : unsigned int ID
 
-Return : Evenement evenement[]
+Return : Evenement+rel_type (evenement+rel_type)[]
 
 
 #7 Procédure EventIDToPerson
 
 Entry : unsigned int ID
 
-Return : Personne personnes[]
+Return : Personne+rel_type (personnes+rel_type)[]
 
 
 #8 Procédure ArticleIDToPerson
