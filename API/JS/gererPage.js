@@ -32,8 +32,12 @@ function createPage() {
 	let cancelButton = document.createElement("button");
 	validButton.className = 'clickable checkButton';
 	cancelButton.className = 'clickable crossButton';
-	validButton.onclick = goPopup2;
-	cancelButton.onclick = goPopup;
+	validButton.addEventListener('click', function(){
+    		goPopup2(getInputs);
+	});
+	cancelButton.addEventListener('click', function(){
+    		goPopup(gererPage);
+	});
 	div.appendChild(validButton);
 	div.appendChild(cancelButton);
 	

@@ -7,6 +7,7 @@
     </title>
     <link rel="stylesheet" href="../../Front/style.css"/>
     <script src="../JS/ajax.js"></script>
+    <script src="../JS/getArticleCreation.js"></script>
 </head>
 <body>
     <div class="contentAdmin">
