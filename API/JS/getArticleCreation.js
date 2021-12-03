@@ -7,10 +7,13 @@ function getInputs(){
     var contentArticle = document.getElementsByClassName('article')[0].value;
     var valueToSend;
 
+    console.log("Value title article: " + titleArticle);
+    console.log("Value personneAssociate: " + personneAssociate);
+    console.log("Article : " + contentArticle);
+
     if(titleArticle !== '' && contentArticle !== '') {
         valueToSend = "kind=0&title=" + titleArticle + "&contentArticle=" + contentArticle;
-        valueToSend = JSON.parse(valueToSend);
-        ajaxSend(valueToSend, '../POO/FactoryDao.php');
+        ajaxSend(valueToSend, '../POO/FactoryDao.php', 1);
     }
 
     if(personneAssociate !== ''){
@@ -18,8 +21,7 @@ function getInputs(){
         for(var i=0; i<personneAssociate.length; i++){
             var names = personneAssociate[i].split(' ');
             valueToSend = "kind=1&nom=" + names[0] + "&prenom=" + names[1];
-            valueToSend = JSON.parse(valueToSend);
-            ajaxSend(valueToSend, '../POO/Factory');
+            ajaxSend(valueToSend, '../POO/FactoryDao.php', 1);
         }
     }
 
@@ -27,8 +29,7 @@ function getInputs(){
         boatAssociate = boatAssociate.split(',');
         for(var i=0; i<boatAssociate.length; i++){
             valueToSend = "kind=2&nom=" + boatAssociate[i];
-            valueToSend = JSON.parse(valueToSend);
-            ajaxSend(valueToSend, '../POO/Factory');
+            ajaxSend(valueToSend, '../POO/FactoryDao.php', 1);
         }
     }
 
@@ -36,8 +37,7 @@ function getInputs(){
         eventAssociate = eventAssociate.split(',');
         for(var i=0; i<eventAssociate.length; i++){
             valueToSend = "kind=3&nom=" + eventAssociate[i];
-            valueToSend = JSON.parse(valueToSend);
-            ajaxSend(valueToSend, '../POO/Factory');
+            ajaxSend(valueToSend, '../POO/FactoryDao.php', 1);
         }
     }
 

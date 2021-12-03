@@ -39,7 +39,7 @@ function goPopup2(){
 	args = Array.from(arguments);
 	args.shift();
 	supButton.addEventListener('click', function(){
-		stopPopup();
+		stopPopup2();
 		funToUse.apply(this, args);
 		//window[funToUse].apply(this, args);
 	});

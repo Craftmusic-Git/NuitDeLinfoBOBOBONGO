@@ -1,6 +1,7 @@
 <?php
 
 include_once "Factory.php";
+include_once "../BDD/putInBdd.php";
 
 $kind = $_POST['kind'];
 $factory = new Factory();
@@ -17,24 +18,28 @@ function pushArticleBdd(){
     global $factory;
     $title = $_POST['title'];
     $content = $_POST['contentArticle'];
-    $factory->setArticle($title, date("m.d.y"), $content);
+    $article = $factory->setArticle($title, date("m.d.y"), $content);
+    putArticle($article->titre, $article->contenu);
 }
 
 function pushPersonneBdd(){
     global $factory;
     $nom = $_POST['nom'];
     $prenom = $_POST['prenom'];
-    $factory->setPersonne($nom, $prenom, null);
+    $personne = $factory->setPersonne($nom, $prenom, null);
+    putPersonne($personne->nom, $personne->prenom);
 }
 
 function pushBoatBdd(){
     global $factory;
     $nom = $_POST['nom'];
-    $factory->setBateaux($nom, null, null);
+    $boat = $factory->setBateaux($nom, null, null);
+    putBoat($boat->nom, $boat->type);
 }
 
 function pushEventBdd(){
     global $factory;
     $nom = $_POST['nom'];
-    $factory->setEvenement($nom, null, null);
+    $event = $factory->setEvenement($nom, null, null);
+    putEvent($event->nom, $event->description);
 }

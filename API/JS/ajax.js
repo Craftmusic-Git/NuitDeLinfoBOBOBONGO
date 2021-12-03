@@ -17,6 +17,9 @@ function reactAjax(index, response){
         case 0: // Get template page
             newContentPage(response);
             break;
+        case 1:
+            console.log(response);
+            break;
         default:
             break;
     }

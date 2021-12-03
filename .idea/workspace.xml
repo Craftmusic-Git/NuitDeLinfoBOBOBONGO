@@ -20,9 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cccfccd2-d274-4a9b-b828-1d448fc3b8e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/API/BDD/connect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/BDD/putInBdd.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Pages/adminPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/API/Pages/adminPage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/JS/ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/API/JS/ajax.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/JS/gererPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/API/JS/gererPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/JS/getArticleCreation.js" beforeDir="false" afterPath="$PROJECT_DIR$/API/JS/getArticleCreation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/JS/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/API/JS/popup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/POO/FactoryDao.php" beforeDir="false" afterPath="$PROJECT_DIR$/API/POO/FactoryDao.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,9 +105,9 @@
       <screen x="0" y="23" width="1440" height="819" />
     </state>
     <state x="383" y="165" key="NewPhpClassDialog/0.23.1440.819@0.23.1440.819" timestamp="1638491537715" />
-    <state x="539" y="363" key="NewPhpFileDialog" timestamp="1638497341146">
+    <state x="539" y="363" key="NewPhpFileDialog" timestamp="1638505168909">
       <screen x="0" y="23" width="1440" height="819" />
     </state>
-    <state x="539" y="363" key="NewPhpFileDialog/0.23.1440.819@0.23.1440.819" timestamp="1638497341146" />
+    <state x="539" y="363" key="NewPhpFileDialog/0.23.1440.819@0.23.1440.819" timestamp="1638505168909" />
   </component>
 </project>
