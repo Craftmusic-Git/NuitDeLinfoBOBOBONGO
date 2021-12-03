@@ -19,7 +19,7 @@ function sendContentToDom(){
 function getTitleArticle(){
     return '
       <div id="title-article">
-        <input class="input-title" name="titleArticle" maxlength="254" required placeholder="Titre de l\'article">
+        <input class="input-title clickable" name="titleArticle" maxlength="254" required placeholder="Titre de l\'article">
       </div>  
     ';
 }
@@ -28,7 +28,7 @@ function getPersonneAssociate(){
     return '
         <div id="person-associate">
            <label>Entrez les personnes associées à l\'article: </label>
-           <input class="persons" name="personAssociate" maxlength="1024" placeholder="Les noms des personnes">
+           <input class="persons clickable" name="personAssociate" maxlength="1024" placeholder="Les noms et prénoms des personnes, séparées par des virgules">
         </div>
     ';
 }
@@ -37,7 +37,7 @@ function getEventAssociate(){
     return '
         <div id="event-associate">
            <label>Entrez les évenements associés à l\'article: </label>
-           <input class="event" name="eventAssociate" maxlength="1024" placeholder="Les évenements">
+           <input class="event clickable" name="eventAssociate" maxlength="1024" placeholder="Les évenements, séparés par des virgules">
         </div>
     ';
 }
@@ -46,7 +46,7 @@ function getBoatAssociate(){
     return '
         <div id="boat-associate">
             <label>Entrez les bateaux associés à l\'article: </label>
-            <input class="boat" name="boatAssociate" maxlength="1024" placeholder="Les noms de bateaux">
+            <input class="boat clickable" name="boatAssociate" maxlength="1024" placeholder="Les noms de bateaux, séparés par des virgules">
         </div>
     ';
 }
@@ -54,7 +54,8 @@ function getBoatAssociate(){
 function getArticle(){
     return '
         <div id="article-input">
-            <input class="article" name="newArticle" required placeholder="C\'est ici que vous rentrez le contenu de votre article">
+            <textarea class="article clickable" name="newArticle" required rows="8" cols="40">C\'est ici que vous rentrez le contenu de votre article
+            </textarea>
         </div>
     ';
 }
