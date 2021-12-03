@@ -52,4 +52,28 @@ function newContentPage(contentDOM){
 function listAllPage(contentDOM){
 	div = document.getElementById('editor');
 	div.innerHTML = contentDOM;
+
+	var articles = document.getElementsByClassName('div-article');
+	for(var i=0; i<articles.length; i++){
+		articles[i].addEventListener('click', function(){
+			redirectArticlePage(articles[i].children[1].children[2].id);
+		});
+	}
+}
+
+function redirectArticlePage(idArticle){
+	var form = document.createElement("form");
+	form.setAttribute("method", "post");
+	form.setAttribute("action", "./API/Pages/articlePage.php");
+
+	// Create an input element for Full Name
+	var FN = document.createElement("input");
+	FN.setAttribute("type", "text");
+	FN.setAttribute("name", "idArticle");
+	FN.setAttribute("value", idArticle);
+
+	form.appendChild(FN);
+	document.getElementsByTagName("body")[0]
+		.appendChild(form);
+	form.submit();
 }

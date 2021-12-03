@@ -31,6 +31,7 @@ function getArticleData($article){
         <div class="article-data">
             <h3>' . $article['titre'] . '</h3>
             <p>'. $presentation[0] . '</p>
+            <p id='. $article['id'] . ' style="display: none"></p>
         </div>
       </div>  
     ';
