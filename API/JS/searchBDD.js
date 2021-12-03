@@ -1,5 +1,5 @@
 window.onload = function(){
-	researchLaunch();
+	researchLaunch(0);
 }
 
 function searchBDD() {
@@ -9,16 +9,21 @@ function searchBDD() {
 	results.style.opacity = 1;
 }
 
-function researchLaunch(){
+function researchLaunch(vr){
 	document.addEventListener('keyup', (e)=>{
-		if(e.code === 'Enter') {
-			console.log("oui");
+		if(e.code === 'Enter' || vr==1) {
 			var searchVal = document.getElementById("search").children[0].value;
 			var valueToSend = "kind=1&content=" + searchVal;
 			ajaxSend(valueToSend, "./API/Pages/viewPages.php", 3);
-			searchBDD();
+			if(vr===0)
+				searchBDD();
 		}
 	});
+}
+
+function research(){
+	researchLaunch(1);
+	searchBDD();
 }
 
 function addResearchToDom(domContent){

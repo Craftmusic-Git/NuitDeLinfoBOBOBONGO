@@ -19,7 +19,7 @@
 		</div>
 		<div class="search" id="search">
 			<input type="text" name="" placeholder="Recherchez une personne ou un bateau">
-			<button class="submit clickable" onclick="searchBDD()"></button>
+			<button class="submit clickable" onclick="research()"></button>
 		</div>
 		<div id="divResults"></div>
 
