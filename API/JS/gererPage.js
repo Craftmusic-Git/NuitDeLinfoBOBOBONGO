@@ -24,9 +24,19 @@ function viewPages() {
 	div.innerHTML = "";
 }
 function createPage() {
-	div = document.getElementById('divButtons');
-	div.innerHTML = "";
+	divButtons = document.getElementById('divButtons');
+	divButtons.innerHTML = "";
 	ajaxSend("", "createPage.php", 0);
+	div = document.getElementById('editor');
+	let validButton = document.createElement("button");
+	let cancelButton = document.createElement("button");
+	validButton.className = 'clickable checkButton';
+	cancelButton.className = 'clickable crossButton';
+	validButton.onclick = viewPages;
+	cancelButton.onclick = createPage;
+	div.appendChild(validButton);
+	div.appendChild(cancelButton);
+	
 }
 
 function newContentPage(contentDOM){
