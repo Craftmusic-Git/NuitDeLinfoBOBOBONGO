@@ -456,3 +456,36 @@ li a:hover,nav a:not(.noTransition):hover, .current{
 	-ms-overflow-style: none;
 	scrollbar-width: none;
 }
+
+#title{
+	position: absolute;
+	top: 10%;
+	left: 30%;
+
+}
+#title h2{
+	font-size: 28px;
+	font-weight: bold;
+}
+#date{
+	position: absolute;
+	top: 15%;
+	left: 30%;
+	font-size: 30px;
+	margin: 15px;
+	font-weight: bold;
+}
+#description{
+	position: absolute;
+	top: 60%;
+	left: 10%;
+}
+#image{
+	position: absolute;
+	top: 12%;
+	left: 70%;
+}
+#image img{
+	width: 90px;
+	height: 90px;
+}
