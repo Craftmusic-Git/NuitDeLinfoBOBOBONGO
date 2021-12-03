@@ -3,6 +3,7 @@
 include_once 'Bateaux.php';
 include_once 'Personne.php';
 include_once 'Evenement.php';
+include_once 'Article.php';
 include_once 'EventBat.php';
 include_once 'PersEvent.php';
 include_once 'BatPers.php';
@@ -34,5 +35,14 @@ class Factory
         $event->object = $object;
 
         return $event;
+    }
+
+    function setArticle($titre, $date, $contenu){
+        $article = new Article();
+        $article->contenu = $contenu;
+        $article->date = $date;
+        $article->titre = $titre;
+
+        return $article;
     }
 }
