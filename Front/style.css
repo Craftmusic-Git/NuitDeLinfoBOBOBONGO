@@ -206,7 +206,7 @@
 	font-size: 28px;
 	color: #284280;
 }
-.editor button{
+.editor > div button{
 	display: inline-block;
 	margin: 10%;
 	width: 30%;
@@ -216,14 +216,53 @@
 	border: 1px solid black;
 	font-weight: bold;
 }
-.editor button:hover{
+.editor > div button:hover{
 	border: 2px solid black;
 }
-.editor button:active{
+.editor > div button:active{
 	background-color: rgba(100, 100, 100, 0.7);
 }
 .editor > div{
 	background-color: rgba(0,0,0,0.3);
 	margin: 20px;
 	border-radius: 20px;
+}
+.crossButton{
+	border: 4px solid #c04020;
+	background-color: rgba(250,250,250,0.2);
+	background-image: url("images/cross.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: inherit;
+	border-radius: 50%;
+}
+.checkButton{
+	border: 4px solid #50d030;
+	background-color: rgba(250,250,250,0.2);
+	background-image: url("images/check.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: inherit;
+	border-radius: 50%;
+}
+.editor > button{
+	width: 4vw;
+	height: 4vw;
+}
+.editor > button:hover {
+	width: 4vw;
+	height: 4vw;
+	border-width: 6px;
+}
+.editor > .checkButton{
+	position: absolute;
+	top: 80px;
+	right: 80px;
+}
+.editor > .crossButton{
+	position: absolute;
+	top: 80px;
+	left: 80px;
 }
