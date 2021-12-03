@@ -5,13 +5,12 @@ include_once '../BDD/getOutBdd.php';
 sendContentToDom();
 
 function sendContentToDom(){
-    $contentDOM = '<div id="template-page">';
+    $contentDOM = '';
 
     $res = getAllArticles();
     while($article = $res->fetch_array()) {
         $contentDOM .= getArticleData($article); // boucle sur tous les articles
     }
-    $contentDOM .= '</div>';
 
     echo $contentDOM;
 }

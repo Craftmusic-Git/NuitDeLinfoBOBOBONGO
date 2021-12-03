@@ -427,7 +427,7 @@ li a:hover,nav a:not(.noTransition):hover, .current{
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-color: inherit;
+	background-color: transparent;
 }
 .article-data h3{
 	font-size: 24px;
