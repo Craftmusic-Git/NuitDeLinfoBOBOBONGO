@@ -18,8 +18,6 @@ function FrontTitreToArticle($name){
 }
 //#104 Procédure FromDescriptionToEvenement
 
-include_once "bdd.php";
-
 function FromDescriptionToEvenement($Desc){
     $bdd = connect();
 
@@ -38,7 +36,6 @@ function FromDescriptionToEvenement($Desc){
 
 
 //#110 Procédure FromIdToEvenement
-include_once "bdd.php";
 
 function FromIdToEvenement($id){
     $bdd = connect();
@@ -59,7 +56,6 @@ return null;
 
 
 //#112 Procédure PersonIDOnEvenement :
-include_once "bdd.php";
 
 function PersIDOnEvenement($id){
     $bdd = connect();
@@ -77,7 +73,6 @@ function PersIDOnEvenement($id){
 }
 
 //#113 Procédure BateauIDOnEvenement :
-include_once "bdd.php";
 
 function BateauIDOnEvenement($id){
     $bdd = connect();
@@ -115,7 +110,6 @@ function ArticleIDOnevent($id){
 }*/
 
 //#115 Procédure EvenementIDOnPerson :
-include_once "bdd.php";
 
 function EvenementIDOnPerson($id){
     $bdd = connect();
@@ -151,7 +145,6 @@ function BatIDonEvent($id){
 }
 */
 //#109 Procédure EvenementIDOnBateau:
-include_once "bdd.php";
 
 function EvenementIDOnBateau($id){
     $bdd = connect();

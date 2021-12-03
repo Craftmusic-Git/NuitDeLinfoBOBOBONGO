@@ -19,7 +19,6 @@
     }
 
         //#101 Procédure FromTypeToBateau :
-include_once "bdd.php";
 
 function FrontTypeToBateau($type){
     $bdd = connect();
@@ -37,7 +36,6 @@ function FrontTypeToBateau($type){
 }
 
 //#102 Procédure FromIdToBateau :
-include_once "bdd.php";
 
 function FrontIDToBateau($id){
     $bdd = connect();
@@ -55,7 +53,6 @@ function FrontIDToBateau($id){
 }
 
 //#106 Procédure EvenementtIDonBateau :
-include_once "bdd.php";
 
 function EvenementtIDonBateau($id){
     $bdd = connect();
@@ -74,7 +71,6 @@ function EvenementtIDonBateau($id){
 
 
 //#108 Procédure PersonIDonBateau :
-include_once "bdd.php";
 
 function PersonIDonBateau($id){
     $bdd = connect();
@@ -91,7 +87,6 @@ function PersonIDonBateau($id){
 
 }
 //#114 Procédure ArticleIDonBateau :
-include_once "bdd.php";
 
 function ArticleIDonBateau($id){
     $bdd = connect();

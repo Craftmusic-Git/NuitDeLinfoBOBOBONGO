@@ -23,7 +23,6 @@ function CreatePerson($name,$prenom,$id){
 #201 Procédure CreateEvenement:
 #//Entry : String nom , String Description , unsigned int ID
 //Return : Evenement evenement[]
-include_once "bdd.php";
 
 function CreateEvenement($name,$description,$id){
     $bdd = connect();
@@ -44,7 +43,6 @@ function CreateEvenement($name,$description,$id){
 #202 Procédure CreateBateau:
 //Entry : String nom , String type , unsigned int ID
 //Return : Bateau bateaux[]
-include_once "bdd.php";
 
     function CreateBateau($name,$type,$id){
     $bdd = connect();
@@ -65,7 +63,6 @@ include_once "bdd.php";
 #203 Procédure CreateArticle:
 //Entry : String titre , int date ,  String Contenu , unsigned int ID
 //Return : Article articles[]
-include_once "bdd.php";
 
 function CreateArticle($titre,$date,$contenu,$id){
     $bdd = connect();
