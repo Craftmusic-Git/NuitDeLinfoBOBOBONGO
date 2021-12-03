@@ -1,5 +1,4 @@
 function ajaxSend(valueToSend, target, goal){
-    var hourChoice = true;
     var httpRequest = new XMLHttpRequest();
     httpRequest.open('POST', target, true);
     httpRequest.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
