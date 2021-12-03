@@ -1,0 +1,29 @@
+
+#200 Procédure CreatePerson:
+
+Entry : String nom , String Prenom , unsigned int ID
+
+Return : Personne person[]
+
+
+#201 Procédure CreateEvenement:
+
+Entry : String nom , String Description , unsigned int ID
+
+Return : Evenement evenement[]
+
+
+
+#202 Procédure CreateBateau:
+
+Entry : String nom , String type , unsigned int ID
+
+Return : Bateau bateaux[]
+
+
+
+#203 Procédure CreateArticle:
+
+Entry : String titre , int date ,  String Contenu , unsigned int ID
+
+Return : Article articles[]
