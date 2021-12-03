@@ -411,6 +411,7 @@ li a:hover,nav a:not(.noTransition):hover, .current{
 }
 
 .div-article{
+	margin: 10px 0;
 	height: 110px;
 }
 .div-article div{

@@ -22,6 +22,7 @@ function gererPage() {
 function viewPages() {
 	div = document.getElementById('editor');
 	div.innerHTML = "";
+	ajaxSend("", "viewPages.php", 2);
 }
 function createPage() {
 	divButtons = document.getElementById('divButtons');
@@ -45,5 +46,10 @@ function createPage() {
 
 function newContentPage(contentDOM){
 	div = document.getElementById('divButtons');
+	div.innerHTML = contentDOM;
+}
+
+function listAllPage(contentDOM){
+	div = document.getElementById('editor');
 	div.innerHTML = contentDOM;
 }
