@@ -1,0 +1,229 @@
+
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: grayscale;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.clickable{
+	cursor: pointer;
+}
+
+
+.informations div{
+	margin: 30px 20px;
+	display: inline-block;
+	border-radius: 50%;
+	width: 90px;
+	height: 90px;
+	background-color: blueviolet;
+	border:  6px solid #8030d0;
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 1;
+	transition: z-index 0.5s ease;
+	-o-transition: z-index 0.5s ease;
+	-moz-transition: z-index 0.5s ease;
+	-webkit-transition: z-index 0.5s ease;
+	-ms-transition: z-index 0.5s ease;
+
+
+}
+.informations div:after{
+	transition: max-width 1s ease, color 0.5s ease 0.3s;
+	-o-transition: max-width 1s ease, color 0.5s ease 0.3s;
+	-moz-transition: max-width 1s ease, color 0.5s ease 0.3s;
+	-webkit-transition: max-width 1s ease, color 0.5s ease 0.3s;
+	-ms-transition: max-width 1s ease, color 0.5s ease 0.3s;
+	max-width: 50px;
+	opacity: 0;
+	color: rgba(208, 208, 208, 0);
+	height: 80%;
+	display: flex;
+	content: attr(aria-label);
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	font-weight: bold;
+	padding: 0 10px;
+	top: -0em;
+	left: -0em;
+	z-index: 1;
+	white-space: nowrap;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 90px;
+	border:  6px solid #8030d0;
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+	font-size: 22px;
+}
+.informations div:hover:after{
+	opacity: 1;
+	max-width: 200px;
+	color: rgba(208, 208, 208, 1.0);
+
+}
+.informations div:hover{
+	border: none;
+	background-image: none !important;
+	background-color: rgba(0, 0, 0, 0);
+}
+#infos{
+	background-image: url("images/interrogation.png");
+}
+#about{
+	background-image: url("images/about.png");
+}
+#contact{
+	background-image: url("images/contact.png");
+}
+#official_site{
+	background-image: url("images/official_site.png");
+}
+#infos:hover:after{
+	max-width: 1000px;
+}
+
+#official_site:hover:after{
+	max-width: 600px;
+}
+
+.informations{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	left: 40px;
+	top: 20%;
+}
+
+.content, .contentAdmin{
+	background-image: url("images/background.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: inherit;
+	width: 100%;
+	height: 100%;
+}
+.search{
+	border-radius: 20px;
+	position: absolute;
+	left: 35%;
+	top: 40%;
+	width: 30%;
+	height: 7vw;
+	background-color: #d0d0d0;
+}
+.search *{
+	display: inline-block;
+	height: 7vw;
+}
+.search input{
+	width: 85%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-radius: 20px 0 0 20px;
+	border:  2px solid black;
+	font-size: 24px;
+}
+::placeholder {
+	color: #5f5f5f;
+	opacity: 0.5;
+	font-size: 20px;
+}
+.submit{
+	width: 7vw;
+	background-image: url("images/eye.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #385290;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 6px;
+	border-radius: 0 20px 20px 0;
+	border:  2px solid black;
+}
+.submit:hover{
+	border:  4px solid black;
+}
+.submit:active{
+	background-color: #183270;
+}
+.contentAdmin > div{
+	display: inline-block;
+	height: 100%;
+	overflow:scroll;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+.contentAdmin > div::-webkit-scrollbar {
+  display: none;
+}
+.navBar{
+	width: 25%;
+	background-color: rgba(250, 250, 250, 0.7);
+	position: absolute;
+	left: 0;
+}
+.editor{
+	width: 75%;
+	background-color: transparent;
+	position: absolute;
+	right: 0;
+}
+.navBar li{
+	list-style-type: none;
+	display: inline-block;
+	width: 100%;
+	height: 25%;
+	border-top: 2px solid black;
+	padding: 40px 0;
+}
+
+.navBar li h2{
+	display: inline-block;
+	font-weight: bold;
+	font-size: 26px;
+	margin: 20px;
+	transition: font-size 0.3s ease, color 0.3s ease;
+	-o-transition: font-size 0.3s ease, color 0.3s ease;
+	-moz-transition: font-size 0.3s ease, color 0.3s ease;
+	-webkit-transition: font-size 0.3s ease, color 0.3s ease;
+	-ms-transition: font-size 0.3s ease, color 0.3s ease;
+}
+.navBar li h2:hover {
+	font-size: 28px;
+	color: #284280;
+}
+.editor button{
+	display: inline-block;
+	margin: 10%;
+	width: 30%;
+	height: 80px;
+	background-color: rgba(250, 250, 250, 0.7);
+	border-radius: 80px;
+	border: 1px solid black;
+	font-weight: bold;
+}
+.editor button:hover{
+	border: 2px solid black;
+}
+.editor button:active{
+	background-color: rgba(100, 100, 100, 0.7);
+}
+.editor > div{
+	background-color: rgba(0,0,0,0.3);
+	margin: 20px;
+	border-radius: 20px;
+}
