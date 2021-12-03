@@ -32,8 +32,8 @@ function createPage() {
 	let cancelButton = document.createElement("button");
 	validButton.className = 'clickable checkButton';
 	cancelButton.className = 'clickable crossButton';
-	validButton.onclick = viewPages;
-	cancelButton.onclick = createPage;
+	validButton.onclick = goPopup2;
+	cancelButton.onclick = goPopup;
 	div.appendChild(validButton);
 	div.appendChild(cancelButton);
 	

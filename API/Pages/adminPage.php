@@ -7,10 +7,12 @@
     </title>
     <link rel="stylesheet" href="../../Front/style.css"/>
     <script src="../JS/ajax.js"></script>
-    <script type="text/javascript" src="../JS/gererPage.js"></script>
 </head>
 <body>
     <div class="contentAdmin">
+        <?php include './popup.php'; ?>
+        <?php include './popupValid.php'; ?>
+        <script type="text/javascript" src="../JS/gererPage.js"></script>
         <div class="navBar">
             <ul>
                 <li>
