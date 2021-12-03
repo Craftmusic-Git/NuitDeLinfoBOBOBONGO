@@ -3,7 +3,7 @@
     <link rel="icon" href="Front/images/favicon.png" />
     <meta name="viewport" content="width=devise-width, initial-scale=0.5">
     <title> 
-            LES KOKO BONGO ON É LAAAAA
+            Le Sauvetage Minimal
     </title> 
     <link rel="stylesheet" href="Front/style.css"/>
 </head>

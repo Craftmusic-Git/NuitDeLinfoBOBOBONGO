@@ -12,7 +12,7 @@ function sendContentToDom(){
 
 function getArticleData(){
     return '
-      <div class="div-article">
+      <div class="div-article clickable">
         <div class="article-icon">
         </div>
         <div class="article-data">
