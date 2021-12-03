@@ -41,3 +41,13 @@ function searchArticles($var){
 
     return $res;
 }
+
+function searchArcticleById($id){
+    $con = connect();
+
+    if(!$res = $con->query("CALL FromIdToArticle('$id')")){
+        echo 'Error during research of article by title' . $con->error();
+    }
+
+    return $res;
+}
