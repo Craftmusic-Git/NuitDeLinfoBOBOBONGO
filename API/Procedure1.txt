@@ -51,7 +51,13 @@ Return : Personne+rel_type (personnes+rel_type)[]
 
 Entry : unsigned int ID
 
-Return : Personne personnes[]
+Return : Personne+rel_type (personnes+rel_type)[]
+
+
+#######################################
+########### -- deja fait -- ###########
+
+
 
 
 #9 Procédure PersonIDToArticle
