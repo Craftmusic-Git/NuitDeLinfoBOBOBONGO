@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cccfccd2-d274-4a9b-b828-1d448fc3b8e0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/API/JS/gererPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/API/JS/gererPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Pages/adminPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/API/Pages/adminPage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Pages/createPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/API/Pages/createPage.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP-MAMP" />
+  <component name="ProblemsViewState">
+    <hideBySeverity>
+      <option value="15" />
+    </hideBySeverity>
+  </component>
+  <component name="ProjectId" id="21ke8A3LjaOqHE7hcZvmevgyfYX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cccfccd2-d274-4a9b-b828-1d448fc3b8e0" name="Default Changelist" comment="" />
+      <created>1638489351021</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638489351021</updated>
+      <workItem from="1638489352712" duration="5468000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="388" y="82" key="#PHP" timestamp="1638494009980">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state x="388" y="82" key="#PHP/0.23.1440.819@0.23.1440.819" timestamp="1638494009980" />
+    <state x="471" y="229" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1638489791083">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state x="471" y="229" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.819@0.23.1440.819" timestamp="1638489791083" />
+    <state x="383" y="165" key="NewPhpClassDialog" timestamp="1638491537715">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state x="383" y="165" key="NewPhpClassDialog/0.23.1440.819@0.23.1440.819" timestamp="1638491537715" />
+    <state x="539" y="363" key="NewPhpFileDialog" timestamp="1638492740420">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state x="539" y="363" key="NewPhpFileDialog/0.23.1440.819@0.23.1440.819" timestamp="1638492740420" />
+  </component>
+</project>

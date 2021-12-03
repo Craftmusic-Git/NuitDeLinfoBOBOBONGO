@@ -42,4 +42,5 @@ function createPage() {
 function newContentPage(contentDOM){
 	div = document.getElementById('divButtons');
 	div.innerHTML = contentDOM;
+	console.log(contentDOM);
 }
