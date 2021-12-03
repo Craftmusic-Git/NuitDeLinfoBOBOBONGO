@@ -7,7 +7,7 @@ function FrontTitreToArticle($titre){
 
     if ($bdd != 0) {
 
-        if ( !$res = $bdd->querry("Call forName('$titre')")) {
+        if ( !$res = $bdd->querry("Call FromTitreToArticle('$titre')")) {
             printf("Error with the call of : FromTitreToArticle");
             return $res;
         }
@@ -25,7 +25,7 @@ function FrontDateToArticle($Date){
 
     if ($bdd != 0) {
 
-        if ( !$res = $bdd->querry("Call forName('$Date')")) {
+        if ( !$res = $bdd->querry("Call FromDateToArticle('$Date')")) {
             printf("Error with the call of : FromDateToArticle");
             return $res;
         }
@@ -43,7 +43,7 @@ function FrontContenuToArticle($contenu){
 
     if ($bdd != 0) {
 
-        if ( !$res = $bdd->querry("Call forName('$contenu')")) {
+        if ( !$res = $bdd->querry("Call FromContenuToArticle('$contenu')")) {
             printf("Error with the call of : FromContenuToArticle");
             return $res;
         }
@@ -53,16 +53,16 @@ function FrontContenuToArticle($contenu){
 
 }
 
-//#110 Procédure EventIDOnArticle :
+//#110 Procédure EvenementIDOnArticle :
 include_once "bdd.php";
 
-function EventIDOnArticle($id){
+function EvenementIDOnArticle($id){
     $bdd = connect();
 
 if ($bdd != 0) {
 
-    if ( !$res = $bdd->querry("Call forName('$id')")) {
-        printf("Error with the call of : EventIDOnArticle");
+    if ( !$res = $bdd->querry("Call EvenementIDOnArticle('$id')")) {
+        printf("Error with the call of : EvenementIDOnArticle");
         return $res;
     }
 
@@ -70,16 +70,16 @@ if ($bdd != 0) {
 return null;
 
 }
-//#112 Procédure PersIDOnArticle :
+//#112 Procédure PersonIDOnArticle :
 include_once "bdd.php";
 
-function PersIDOnArticle($id){
+function PersonIDOnArticle($id){
     $bdd = connect();
 
     if ($bdd != 0) {
 
-        if ( !$res = $bdd->querry("Call forName('$id')")) {
-            printf("Error with the call of : PersIDOnArticle");
+        if ( !$res = $bdd->querry("Call PersonIDOnArticle('$id')")) {
+            printf("Error with the call of : PersonIDOnArticle");
             return $res;
         }
 
@@ -88,16 +88,16 @@ function PersIDOnArticle($id){
 
 }
 
-//#113 Procédure BatIDOnArticle :
+//#113 Procédure BateauIDOnArticle :
 include_once "bdd.php";
 
-function BatIDOnArticle($id){
+function BateauIDOnArticle($id){
     $bdd = connect();
 
     if ($bdd != 0) {
 
-        if ( !$res = $bdd->querry("Call forName('$id')")) {
-            printf("Error with the call of : BatIDOnArticle");
+        if ( !$res = $bdd->querry("Call BateauIDOnArticle('$id')")) {
+            printf("Error with the call of : BateauIDOnArticlee");
             return $res;
         }
 
@@ -108,16 +108,16 @@ function BatIDOnArticle($id){
 
 
 
-//#111 Procédure ArticleIDOnevent :
+//#111 Procédure ArticleIDOnEvenement :
 include_once "bdd.php";
 
-function ArticleIDOnevent($id){
+function ArticleIDOnEvenement($id){
     $bdd = connect();
 
     if ($bdd != 0) {
 
-        if ( !$res = $bdd->querry("Call forName('$id')")) {
-            printf("Error with the call of : ArticleIDOnevent");
+        if ( !$res = $bdd->querry("Call ArticleIDOnEvenement('$id')")) {
+            printf("Error with the call of : ArticleIDOnEvenement");
             return $res;
         }
 
@@ -126,16 +126,16 @@ function ArticleIDOnevent($id){
 
 }
 
-//#115 Procédure ArticleIDOnPers :
+//#115 Procédure ArticleIDOnPerson :
 include_once "bdd.php";
 
-function ArticleIDOnevent($id){
+function ArticleIDOnPerson($id){
     $bdd = connect();
 
     if ($bdd != 0) {
 
-        if ( !$res = $bdd->querry("Call forName('$id')")) {
-            printf("Error with the call of : ArticleIDOnevent");
+        if ( !$res = $bdd->querry("Call ArticleIDOnPerson('$id')")) {
+            printf("Error with the call of : ArticleIDOnPerson");
             return $res;
         }
 
@@ -144,16 +144,16 @@ function ArticleIDOnevent($id){
 
 }
 
-//#107 Procédure BatIDonEvent :
+//#107 Procédure BateauIDonEvent :
 include_once "bdd.php";
 
-function BatIDonEvent($id){
+function BateauIDonEvent($id){
     $bdd = connect();
 
     if ($bdd != 0) {
 
-        if ( !$res = $bdd->querry("Call forName('$id')")) {
-            printf("Error with the call of : BatIDonEvent");
+        if ( !$res = $bdd->querry("Call BateauIDonEvent('$id')")) {
+            printf("Error with the call of : BateauIDonEvent");
             return $res;
         }
 
@@ -162,16 +162,16 @@ function BatIDonEvent($id){
 
 }
 
-//#109 Procédure BatIDOnPers :
+//#109 Procédure BateauIDOnPerson :
 include_once "bdd.php";
 
-function BatIDOnPers($id){
+function BateauIDOnPerson($id){
     $bdd = connect();
 
     if ($bdd != 0) {
 
-        if ( !$res = $bdd->querry("Call forName('$id')")) {
-            printf("Error with the call of : BatIDOnPers");
+        if ( !$res = $bdd->querry("Call BateauIDOnPerson('$id')")) {
+            printf("Error with the call of : BateauIDOnPerson");
             return $res;
         }
 

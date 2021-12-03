@@ -8,7 +8,7 @@
 
         if ($bdd != 0) {
 
-            if ( !$res = $bdd->querry("Call forName('$name')")) {
+            if ( !$res = $bdd->querry("Call FromNameToBateau('$name')")) {
                 printf("Error with the call of : FromNameToBateau");
                 return $res;
                 }
@@ -26,7 +26,7 @@ function FrontTypeToBateau($type){
 
     if ($bdd != 0) {
 
-        if ( !$res = $bdd->querry("Call forType('$type')")) {
+        if ( !$res = $bdd->querry("Call FromTypeToBateau('$type')")) {
             printf("Error with the call of : FromTypeToBateau");
             return $res;
         }
@@ -44,7 +44,7 @@ function FrontIDToBateau($id){
 
     if ($bdd != 0) {
 
-        if ( !$res = $bdd->querry("Call forName('$id')")) {
+        if ( !$res = $bdd->querry("Call FromIdToBateau('$id')")) {
             printf("Error with the call of : FromIdToBateau");
             return $res;
         }
@@ -54,16 +54,16 @@ function FrontIDToBateau($id){
 
 }
 
-//#106 Procédure EventIDonBat :
+//#106 Procédure EvenementtIDonBateau :
 include_once "bdd.php";
 
-function EventIDonBat($id){
+function EvenementtIDonBateau($id){
     $bdd = connect();
 
     if ($bdd != 0) {
 
-        if ( !$res = $bdd->querry("Call forName('$id')")) {
-            printf("Error with the call of : EventIDonBat");
+        if ( !$res = $bdd->querry("Call EvenementtIDonBateau('$id')")) {
+            printf("Error with the call of : EvenementtIDonBateau");
             return $res;
         }
 
@@ -73,16 +73,16 @@ function EventIDonBat($id){
 }
 
 
-//#108 Procédure persIDonBat :
+//#108 Procédure PersonIDonBateau :
 include_once "bdd.php";
 
-function persIDonBat($id){
+function PersonIDonBateau($id){
     $bdd = connect();
 
     if ($bdd != 0) {
 
-        if ( !$res = $bdd->querry("Call forName('$id')")) {
-            printf("Error with the call of : persIDonBat");
+        if ( !$res = $bdd->querry("Call PersonIDonBateau('$id')")) {
+            printf("Error with the call of : PersonIDonBateau");
             return $res;
         }
 
@@ -90,16 +90,16 @@ function persIDonBat($id){
     return null;
 
 }
-//#114 Procédure ArticleIDonBat :
+//#114 Procédure ArticleIDonBateau :
 include_once "bdd.php";
 
-function ArticleIDonBat($id){
+function ArticleIDonBateau($id){
     $bdd = connect();
 
     if ($bdd != 0) {
 
-        if ( !$res = $bdd->querry("Call forName('$id')")) {
-            printf("Error with the call of : ArticleIDonBat");
+        if ( !$res = $bdd->querry("Call ArticleIDonBateau('$id')")) {
+            printf("Error with the call of : ArticleIDonBateau");
             return $res;
         }
 
