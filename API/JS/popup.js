@@ -32,8 +32,8 @@ function stopPopup(){
 }
 function goPopup2(){
 	//console.log(arguments);
-	var load = document.getElementById('popup'); 
-	var supButton = document.getElementById('popup-validate');
+	var load = document.getElementById('popup2'); 
+	var supButton = document.getElementById('popup-validate2');
 	funToUse = arguments[0];
 	//console.log(funToUse);
 	args = Array.from(arguments);
@@ -54,7 +54,7 @@ function goPopup2(){
 
 
 function stopPopup2(){
-	var load = document.getElementById('popup');
+	var load = document.getElementById('popup2');
 	load.className = "hide";
 	setTimeout(function(){
 		load.style.display = 'none';

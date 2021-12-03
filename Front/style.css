@@ -293,10 +293,10 @@
 #template-page textarea{
 	margin-top: 60px;
 }
-#popup: hover{
+#popup: hover , #popup2:hover{
 	cursor: default;
 }
-#popup{
+#popup, #popup2{
 	border: none !important;
 	box-shadow: none !important;
 	background-color: rgba(0, 0, 0, 0.5) !important;
@@ -308,22 +308,22 @@
 	height: 100%;
 	width:100%;       
 }
-#popup.show {
+#popup.show, #popup2.show{
   -webkit-animation: in 700ms ease both;
   animation: in 700ms ease both;
   display: block;
   z-index: 999;
 }
 
-#popup.hide {
+#popup.hide , #popup2.hide{
   -webkit-animation: out 700ms ease both;
   animation: out 700ms ease both;
 }
 
-#popup li a{
+#popup li a, #popup2 li a{
 	border-radius: 15px;
 }
-#popup li{
+#popup li, #popup2 li{
 	margin: 10px;
 }
 li{
@@ -355,4 +355,57 @@ li a,nav a:not(.noTransition){
 li a:hover,nav a:not(.noTransition):hover, .current{
 	background-color: #1F1F1F !important;
 	color: #e0e0e3 !important;
+}
+#popup-in, #popup-in2{
+	position: relative;
+	background-color: #707090;
+	margin: 15% 25% auto 50%;
+	border-radius: 20px;
+}
+
+#popup-in li, #popup-in2 li{
+	width: 40%;
+}
+
+#popup-in li:first-child a{
+	background-color: #FE0707;
+}
+#popup-in2 li:first-child a{
+	background-color: #50d030;
+}
+#popup-in2 li:first-child a:hover{
+	color: #50d030 !important;
+}
+#popup-in li:first-child a:hover{
+	color: #FE0707 !important;
+}
+
+
+#popup-in .crossButton, #popup-in2 .crossButton{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 16px;
+	height: 16px;
+	border-width: 1px;
+}
+
+@-webkit-keyframes in {
+  0% { -webkit-transform: translateY(-50%); opacity: 0; visibility: hidden;  z-index: -1;}
+  100% { -webkit-transform: translateY(0%); opacity: 1; visibility: visible; z-index: 999;}
+}
+
+@keyframes in {
+  0% { transform: translateY(-50%); opacity: 0; visibility: hidden;  z-index: -1;}
+  100% { transform: translateY(0%); opacity: 1; visibility: visible; z-index: 999;}
+}
+
+@-webkit-keyframes out {
+  0% { -webkit-transform: translateY(0%); opacity: 1; visibility: visible; z-index: 999; }
+  100% { -webkit-transform: translateY(-50%); opacity: 0; visibility: hidden; z-index: -1;}
+}
+
+@keyframes out {
+  0% { transform: translateY(0); opacity: 1; visibility: visible; z-index: 999;}
+  100% { transform: translateY(-50%); opacity: 0; visibility: hidden; z-index: -1; }
 }
