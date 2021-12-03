@@ -452,4 +452,7 @@ li a:hover,nav a:not(.noTransition):hover, .current{
 	background-color: rgba(0, 0, 0, 0.4);
 	opacity: 0;
 	transition: opacity 0.2s ease 1s ;
+	overflow:scroll;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
 }

@@ -7,6 +7,7 @@ function searchBDD() {
 	div.style.top = "5%";
 	results = document.getElementById('divResults');
 	results.style.opacity = 1;
+	results.style.height = (window.innerHeight - 200) + "px";
 }
 
 function researchLaunch(vr){

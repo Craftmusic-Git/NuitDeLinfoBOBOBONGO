@@ -22,6 +22,5 @@
 			<button class="submit clickable" onclick="research()"></button>
 		</div>
 		<div id="divResults"></div>
-
 	</div>
 </body>
