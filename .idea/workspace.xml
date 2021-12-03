@@ -22,6 +22,11 @@
     <list default="true" id="cccfccd2-d274-4a9b-b828-1d448fc3b8e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/BDD/getOutBdd.php" beforeDir="false" afterPath="$PROJECT_DIR$/API/BDD/getOutBdd.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/JS/ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/API/JS/ajax.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/JS/gererPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/API/JS/gererPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/JS/searchBDD.js" beforeDir="false" afterPath="$PROJECT_DIR$/API/JS/searchBDD.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Pages/viewPages.php" beforeDir="false" afterPath="$PROJECT_DIR$/API/Pages/viewPages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,9 +104,13 @@
       <screen x="0" y="23" width="1440" height="819" />
     </state>
     <state x="383" y="165" key="NewPhpClassDialog/0.23.1440.819@0.23.1440.819" timestamp="1638491537715" />
-    <state x="539" y="363" key="NewPhpFileDialog" timestamp="1638507050252">
+    <state x="539" y="363" key="NewPhpFileDialog" timestamp="1638509523917">
       <screen x="0" y="23" width="1440" height="819" />
     </state>
-    <state x="539" y="363" key="NewPhpFileDialog/0.23.1440.819@0.23.1440.819" timestamp="1638507050252" />
+    <state x="539" y="363" key="NewPhpFileDialog/0.23.1440.819@0.23.1440.819" timestamp="1638509523917" />
+    <state x="418" y="187" width="604" height="490" key="find.popup" timestamp="1638509857934">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state x="418" y="187" width="604" height="490" key="find.popup/0.23.1440.819@0.23.1440.819" timestamp="1638509857934" />
   </component>
 </project>

@@ -22,7 +22,7 @@ function gererPage() {
 function viewPages() {
 	div = document.getElementById('editor');
 	div.innerHTML = "";
-	ajaxSend("", "viewPages.php", 2);
+	ajaxSend("kind=0", "viewPages.php", 2);
 }
 function createPage() {
 	divButtons = document.getElementById('divButtons');

@@ -31,3 +31,13 @@ function fromTitreToArticle($title){
 
     return $res;
 }
+
+function searchArticles($var){
+    $con = connect();
+
+    if(!$res = $con->query("CALL searchArticle('$var')")){
+        echo 'Error during research of article by title' . $con->error();
+    }
+
+    return $res;
+}

@@ -7,7 +7,13 @@ sendContentToDom();
 function sendContentToDom(){
     $contentDOM = '';
 
-    $res = getAllArticles();
+    $kindOfResearch = $_POST['kind'];
+
+    if($kindOfResearch == 0)
+        $res = getAllArticles();
+    else if($kindOfResearch == 1)
+        $res = searchArticles($_POST['content']);
+
     while($article = $res->fetch_array()) {
         $contentDOM .= getArticleData($article); // boucle sur tous les articles
     }

@@ -20,6 +20,9 @@ function reactAjax(index, response){
         case 2:
             listAllPage(response);
             break;
+        case 3:
+            addResearchToDom(response);
+            break;
         default:
             break;
     }
