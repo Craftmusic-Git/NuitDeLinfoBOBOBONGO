@@ -22,6 +22,7 @@ function reactAjax(index, response){
             break;
         case 3:
             addResearchToDom(response);
+            console.log(response);
             break;
         default:
             break;

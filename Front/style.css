@@ -294,7 +294,7 @@
 #template-page textarea{
 	margin-top: 60px;
 }
-#popup: hover , #popup2:hover{
+#popup:hover , #popup2:hover{
 	cursor: default;
 }
 #popup, #popup2{

@@ -6,7 +6,7 @@
             Le Sauvetage Minimal
     </title> 
     <link rel="stylesheet" href="Front/style.css"/>
-    <script src="/API/JS/ajax.js"></script>
+    <script src="./API/JS/ajax.js"></script>
     <script type="text/javascript" src="./API/JS/searchBDD.js"></script>
 </head>
 <body>
