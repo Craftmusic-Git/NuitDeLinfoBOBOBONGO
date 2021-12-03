@@ -24,26 +24,6 @@
                     <h2 class="clickable">Accédez au site public</h2>
                     <p>Visionnez à quoi ressemble votre site</p>
                 </li>
-                <li>
-                    <h2 class="clickable">Gérer les pages</h2>
-                    <p>c la description fréro</p>
-                </li>
-                <li>
-                    <h2 class="clickable">Gérer les pages</h2>
-                    <p>c la description fréro</p>
-                </li>
-                <li>
-                    <h2 class="clickable">Gérer les pages</h2>
-                    <p>c la description fréro</p>
-                </li>
-                <li>
-                    <h2 class="clickable">Gérer les pages</h2>
-                    <p>c la description fréro</p>
-                </li>
-                <li>
-                    <h2 class="clickable">Gérer les pages</h2>
-                    <p>c la description fréro</p>
-                </li>
             </ul>
         </div>
         <div class="editor" id="editor"></div>

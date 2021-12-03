@@ -121,6 +121,7 @@
 	width: 30%;
 	height: 7vw;
 	background-color: #d0d0d0;
+	transition: left 1s ease, top 1s ease;
 }
 .search *{
 	display: inline-block;
@@ -440,4 +441,15 @@ li a:hover,nav a:not(.noTransition):hover, .current{
 .div-article:hover h3{
 	color: #181870;
 	font-size: 26px;
+}
+
+#divResults{
+	border-radius: 20px;
+	position: absolute;
+	left: 35%;
+	top: 20%;
+	width: 30%;
+	background-color: rgba(0, 0, 0, 0.4);
+	opacity: 0;
+	transition: opacity 0.2s ease 1s ;
 }
