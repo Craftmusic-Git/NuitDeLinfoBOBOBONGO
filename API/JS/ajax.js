@@ -14,8 +14,8 @@ function ajaxSend(valueToSend, target, goal){
 
 function reactAjax(index, response){
     switch(index){
-        case 0:
-            console.log("test");
+        case 0: // Get template page
+            newContentPage(response);
             break;
         default:
             break;

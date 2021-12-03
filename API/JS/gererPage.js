@@ -24,6 +24,12 @@ function viewPages() {
 	div.innerHTML = "";
 }
 function createPage() {
-	div = document.getElementById('editor');
+	div = document.getElementById('divButtons');
 	div.innerHTML = "";
+	ajaxSend("", "createPage.php", 0);
+}
+
+function newContentPage(contentDOM){
+	div = document.getElementById('divButtons');
+	div.innerHTML = contentDOM;
 }
