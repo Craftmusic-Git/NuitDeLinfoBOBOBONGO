@@ -123,14 +123,11 @@ Return : Evenement+rel_type (evenement+rel_type)[]
 
 
 
-#######################################
-########### -- deja fait -- ###########
-
 #18 Procédure persIDonBat :
 
 Entry : unsigned int ID
 
-Return : Bateau bateaux[]
+Return : Bateau+rel_type (bateaux+rel_type)[]
 
 
 
@@ -138,7 +135,7 @@ Return : Bateau bateaux[]
 
 Entry : unsigned int ID
 
-Return : Personne Personne[]
+Return : Personne+rel_type (Personne+rel_type)[]
 
 
 
@@ -160,14 +157,20 @@ Return : Evenement evenement[]
 
 Entry : unsigned int ID
 
-Return : Article articles[]
+Return : Article+rel_type (articles+rel_type)[]
+
+
+
+
+#######################################
+########### -- deja fait -- ###########
 
 
 #23 Procédure BatIDOnArticle :
 
 Entry : unsigned int ID
 
-Return : Article articles[]
+Return : Article+rel_type (articles+rel_type)[]
 
 
 
@@ -175,7 +178,7 @@ Return : Article articles[]
 
 Entry : unsigned int ID
 
-Return : Bateau bateaux[]
+Return : Bateau+rel_type (bateaux+rel_type)[]
 
 
 
@@ -183,4 +186,4 @@ Return : Bateau bateaux[]
 
 Entry : unsigned int ID
 
-Return : Personne Personne[]
+Return : Personne+rel_type (Personne+rel_type)[]
