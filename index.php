@@ -6,6 +6,7 @@
             Le Sauvetage Minimal
     </title> 
     <link rel="stylesheet" href="Front/style.css"/>
+    <script type="text/javascript" src="./API/JS/searchBDD.js"></script>
 </head>
 <body>
 	<div class="content">
@@ -15,9 +16,9 @@
 			<div id="contact" class="clickable" aria-label=" Nous Contacter "></div>
 			<div id="official_site" class="clickable" aria-label=" Site officiel des sauveteurs du dunkerquois " onclick="window.open('https://sauveteurdudunkerquois.fr/', '_blanck')"></div>
 		</div>
-		<div class="search">
+		<div class="search" id="search">
 			<input type="text" name="" placeholder="Recherchez une personne ou un bateau">
-			<button class="submit clickable"></button>
+			<button class="submit clickable" onclick="searchBDD()"></button>
 		</div>
 
 	</div>
